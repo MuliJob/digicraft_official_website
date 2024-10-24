@@ -1,4 +1,4 @@
 myenv/
 db.sqlite3
-.*pyc
+*.pyc
 .env
