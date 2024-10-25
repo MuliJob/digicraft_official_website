@@ -33,36 +33,94 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="services-list">
-              <a href="#" class="active">Web Design</a>
-              <a href="#">Software Development</a>
-              <a href="#">Product Management</a>
-              <a href="#">Graphic Design</a>
-              <a href="#">Marketing</a>
+              <a href="javascript:void(0)" class="service-link active" data-target="#web">Web Development</a>
+              <a href="javascript:void(0)" class="service-link" data-target="#mobile">Mobile App Development</a>
+              <a href="javascript:void(0)" class="service-link" data-target="#digital">Digital Marketing</a>
+              <a href="javascript:void(0)" class="service-link" data-target="#design">Graphic Design</a>
+              <a href="javascript:void(0)" class="service-link" data-target="#social">Social Media Management</a>
             </div>
 
-            <h4>Enim qui eos rerum in delectus</h4>
-            <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime modi rerum.</p>
+            <h4>Elevate Your Online Presence With Digicraft</h4>
+            <p>Begin your journey to success with our customized services designed to address your project's specific requirements. 
+              From digital marketing and social media management to graphic design, web development, app development, and branding, we are here to support you at every stage. 
+              Together, let's transform your ideas into impactful solutions!</p>
+
+
           </div>
 
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img src="{% static 'resources/img/services.jpg' %}" alt="" class="img-fluid services-img">
-            <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
-            <p>
-              Blanditiis voluptate odit ex error ea sed officiis deserunt. Cupiditate non consequatur et doloremque consequuntur. Accusantium labore reprehenderit error temporibus saepe perferendis fuga doloribus vero. Qui omnis quo sit. Dolorem architecto eum et quos deleniti officia qui.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
-            </ul>
-            <p>
-              Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
-            </p>
-            <p>
-              Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
-            </p>
-          </div>
+            <div id="web" class="service-section" style="display: block;">
+              <img src="{% static 'resources/img/services.jpg' %}" alt="" class="img-fluid services-img">
+              <h3>Web Development Services</h3>
+              <p>Professional web development services including frontend, digital, and full-stack solutions.</p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span>Custom website development.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>E-Commerce Websites.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Modern framework expertise.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Portfolio Websites.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Cooperate Websites.</span></li>
+              </ul>
+              <p>Unlock the potential of your online presence with our comprehensive web development services. 
+                Our Team specialize in creating responsive, user-friendly websites tailored to meet your business needs. Whether it’s a dynamic web application or a sleek landing page, We leverage the latest technologies and frameworks to deliver high-performance solutions that engage users and drive results. 
+                Let’s build something great together!</p>
+            </div>
 
+            <div id="mobile" class="service-section" style="display: none;">
+              <img src="{% static 'resources/img/services-1.jpg' %}" alt="" class="img-fluid services-img">
+              <h3>Mobile App Development Services</h3>
+              <p>Cross-platform and native mobile application development services.</p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span>iOS and Android development.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Cross-platform solutions.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Native app expertise.</span></li>
+              </ul>
+              <p>We offer tailored mobile app development solutions to bring your ideas to life. From cross-platform apps to native iOS and Android applications, We create user-centric, high-performance mobile experiences that engage users and drive results. 
+                Whether you're launching a new app or enhancing an existing one, our development process ensures seamless performance and an intuitive interface.</p>
+            </div>
+
+            <div id="digital" class="service-section" style="display: none;">
+              <img src="{% static 'resources/img/services-3.jpg' %}" alt="" class="img-fluid services-img">
+              <h3>Digital Marketing</h3>
+              <p>Comprehensive strategies to enhance your online presence and drive engagement.</p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span>Search Engine Optimization (SEO).</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Content Marketing.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Pay-Per-Click Advertising (PPC).</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Email Marketing.</span></li>
+              </ul>
+              <p>We specialize in crafting tailored digital marketing strategies that elevate your brand and drive results. 
+                From optimizing your website for search engines to creating engaging content and managing effective advertising campaigns, my approach focuses on delivering measurable outcomes. 
+                Let's work together to enhance your online visibility, engage your audience, and achieve your marketing goals!</p>
+
+            </div>
+
+            <div id="design" class="service-section" style="display: none;">
+              <img src="{% static 'resources/img/services-2.jpg' %}" alt="" class="img-fluid services-img">
+              <h3>Graphic Design Services</h3>
+              <p>Creative and professional graphic design solutions.</p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span>Brand identity design.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>3D Modelling.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>UI/UX design.</span></li>
+              </ul>
+              <p>Elevate your brand with professional and creative design solutions. From brand identity to 3D modeling and UI/UX design, We bring ideas to life with visually stunning graphics that align with your vision and business goals. 
+                Let’s create compelling designs that captivate your audience!</p>
+            </div>
+
+            <div id="social" class="service-section" style="display: none;">
+              <img src="{% static 'resources/img/services-1.jpg' %}" alt="" class="img-fluid services-img">
+              <h3>Social Media Management Services</h3>
+              <p>Comprehensive strategies for effective social media presence and engagement.</p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> <span>Content Creation and Scheduling.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Audience Engagement and Community Building.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Analytics and Performance Tracking.</span></li>
+              </ul>
+              <p>Enhance your online presence with tailored social media management solutions. 
+                From creating engaging content and building your community to analyzing performance metrics, I ensure your brand connects with your audience effectively. 
+                Let’s elevate your social media strategy for maximum impact!</p>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -70,5 +128,25 @@
     </section><!-- /Service Details Section -->
 
   </main>
+  <script>
+    document.querySelectorAll('.service-link').forEach(link => {
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+  
+        document.querySelectorAll('.service-link').forEach(link => {
+          link.classList.remove('active');
+        });
+  
+        this.classList.add('active');
+  
+        document.querySelectorAll('.service-section').forEach(section => {
+          section.style.display = 'none';
+        });
+  
+        const target = this.getAttribute('data-target');
+        document.querySelector(target).style.display = 'block';
+      });
+    });
+  </script>
 </body>
 {% endblock content %}
