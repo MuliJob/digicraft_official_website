@@ -376,12 +376,12 @@
 
         <div class="row gy-4">
 
-          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item d-flex position-relative h-100">
-              <i class="bi bi-pencil icon flex-shrink-0"></i>
+              <i class="bi bi-palette icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Logo Design</a></h4>
-                <p class="description">We specialize in crafting distinctive logos that capture the essence of your brand and resonate with your target audience.</p>
+                <h4 class="title"><a href="{% url 'service_detail' %}" class="stretched-link">Branding</a></h4>
+                <p class="description">Comprehensive branding services to create a strong identity for your business, including logo design, brand strategy, and visual guidelines that resonate with your target audience.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -390,7 +390,7 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-grid icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">UI/UX Design</a></h4>
+                <h4 class="title"><a href="{% url 'service_detail' %}" class="stretched-link">UI/UX Design</a></h4>
                 <p class="description">We focus on creating user-friendly and visually appealing interfaces for websites and mobile applications.</p>
               </div>
             </div>
@@ -400,7 +400,7 @@
             <div class="service-item d-flex position-relative h-100">
               <i class="bi bi-currency-dollar icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Paid Advertising</a></h4>
+                <h4 class="title"><a href="{% url 'service_detail' %}" class="stretched-link">Paid Advertising</a></h4>
                 <p class="description">Manage paid advertising campaigns on platforms like Facebook, Instagram, and LinkedIn. Target specific demographics and interests. Optimize campaigns for maximum ROI.</p>
               </div>
             </div>
@@ -408,30 +408,71 @@
 
           <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item d-flex position-relative h-100">
-              <i class="bi bi-binoculars icon flex-shrink-0"></i>
+              <i class="bi bi-briefcase icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">E-commerce Website</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <h4 class="title"><a href="{% url 'service_detail' %}" class="stretched-link">Coorprate Website</a></h4>
+                <p class="description">Professional corporate websites tailored to strengthen your brand, engage clients, and effectively communicate your company’s values and services.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-cart icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="{% url 'service_detail' %}" class="stretched-link">E-commerce Website</a></h4>
+                <p class="description">Custom eCommerce websites designed to enhance user experience, drive sales, and support secure transactions for your online business success.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item d-flex position-relative h-100">
-              <i class="bi bi-brightness-high icon flex-shrink-0"></i>
+              <i class="bi bi-phone icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Nemo Enim</a></h4>
-                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                <h4 class="title"><a href="{% url 'service_detail' %}" class="stretched-link">App Development</a></h4>
+                <p class="description">At DigiCraft, we specialize in crafting cutting-edge mobile applications tailored to your unique needs. Our experienced team leverages the latest technologies to deliver user-friendly, high-performance solutions.
+                  </p>
               </div>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item d-flex position-relative h-100">
-              <i class="bi bi-calendar4-week icon flex-shrink-0"></i>
+              <i class="bi bi-person-circle icon flex-shrink-0"></i>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Eiusmod Tempor</a></h4>
-                <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                <h4 class="title"><a href="{% url 'service_detail' %}" class="stretched-link">Portfolio Websites</a></h4>
+                <p class="description">Professional portfolio websites that showcase your work, skills, and achievements with sleek design and easy navigation to elevate your brand.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-globe icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="{% url 'service_detail' %}" class="stretched-link">Multilingual Websites</a></h4>
+                <p class="description">Multilingual websites designed to reach diverse audiences by providing seamless language options and localized content for a global experience.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-server icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="{% url 'service_detail' %}" class="stretched-link">Backend Systems</a></h4>
+                <p class="description">Robust backend systems to ensure seamless functionality, secure data management, and efficient support for your application’s core processes.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item d-flex position-relative h-100">
+              <i class="bi bi-brush-fill icon flex-shrink-0"></i>
+              <div>
+                <h4 class="title"><a href="{% url 'service_detail' %}" class="stretched-link">3D Modelling</a></h4>
+                <p class="description">Discover our 3D Design and Animation Services using Blender, specializing in 3D modeling, animation, visual effects, and architectural visualization.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
