@@ -43,7 +43,7 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -80,16 +80,16 @@
             <img src="{% static 'resources/img/logo.png' %}" alt="Company logo"><span class="sitename">Digicraft</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>Kisumu, Kenya</p>
+            <p>Narok, Kenya</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+254 787 850022 <br><strong>Phone:</strong> <span>+254 797 969664</span></span></p>
+            <p><strong>Email:</strong> <span>info@digicraft.ke</span></p>
           </div>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61566109316037"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/digic.raft?igsh=YzljYTk1ODg3Zg=="><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/digi-craft-3928a71bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
@@ -97,8 +97,8 @@
           <h4>Useful Links</h4>
           <ul>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="{% url 'service_detail' %}">Services</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
           </ul>
@@ -107,11 +107,12 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="{% url 'service_detail' %}">Web Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="{% url 'service_detail' %}">Web Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="{% url 'service_detail' %}">Mobile App Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="{% url 'service_detail' %}">Social Media Management</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="{% url 'service_detail' %}">Digital Marketing</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="{% url 'service_detail' %}">Graphic Design</a></li>
           </ul>
         </div>
 
@@ -119,7 +120,7 @@
           <h4>Our Newsletter</h4>
           <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
           <form action="" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <div class="newsletter-form"><input type="email" name="email" placeholder="Email"><input type="submit" value="Subscribe"></div>
             <div class="loading">Loading</div>
             <div class="error-message"></div>
             <div class="sent-message">Your subscription request has been sent. Thank you!</div>
