@@ -2,4 +2,3 @@ myenv/
 db.sqlite3
 *.pyc
 .env
-/staticfiles/
