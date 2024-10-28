@@ -40,7 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'official_website',
+    'django.contrib.sitemaps',
 ]
+
+SITE_ID = 1
+PRODUCTION_URL = config('PRODUCTION_URL', 'https://digicraftofficial.onrender.com')
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
